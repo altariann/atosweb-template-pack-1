@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anadolu Toptan</title>
+    <title>Anadolu Toptan — Taze Simit, Poğaça ve Açma Tedariği</title>
+    <meta
+      name="description"
+      content="Büfe, market, kantin ve kafelere her sabah taze simit, poğaça ve açma tedariği. 48+ nokta, 12.000+ günlük adet, sabit rota ve sabah 04:30 çıkış."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Merriweather:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:ital,wght@0,600;0,700;0,800;1,600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
@@ -15,25 +19,40 @@
   <body>
     <div class="utility-bar">
       <div class="container utility-inner">
-        <span>05:00 ÖNCESİ SEVKİYAT PLANLAMASI</span>
-        <span>Telefon, WhatsApp ve sabit sipariş modeli</span>
+        <span class="util-left">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z" fill="currentColor"/></svg>
+          Bursa merkez ve çevre ilçelerine teslimat
+        </span>
+        <span class="util-right">
+          <a href="tel:+902241234567">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1Z" fill="currentColor"/></svg>
+            0224 123 45 67
+          </a>
+          <a href="https://wa.me/905551234567">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.7 15l-1.2 4.4 4.5-1.2A10 10 0 1 0 12 2Zm5.3 14.2c-.2.6-1.2 1.2-1.8 1.3-.5.1-1.1.1-1.7-.1a14 14 0 0 1-5.9-5.2c-.5-.8-.8-1.6-.8-2.4 0-.9.5-1.4.7-1.6.2-.2.5-.3.7-.3h.5c.2 0 .4-.1.6.4l.7 1.7c.1.2.1.5 0 .7l-.4.5c-.2.2-.3.4-.1.7a8 8 0 0 0 3.2 3c.3.2.5.1.7-.1l.7-.8c.2-.3.4-.2.7-.1l1.7.8c.3.1.4.2.5.4 0 .1 0 .5-.1.9Z" fill="currentColor"/></svg>
+            WhatsApp sipariş
+          </a>
+        </span>
       </div>
     </div>
 
     <header class="site-header">
       <div class="container nav-row">
-        <div class="brand">
-          <img class="brand-logo" src="./assets/images/logo" alt="Atosweb logo" />
-          <div>
-            <strong>Anadolu Toptan</strong>
-            <p>Toptan simit, poğaça ve açma tedariği</p>
-          </div>
-        </div>
+        <a class="brand" href="#" aria-label="Anadolu Toptan">
+          <img class="brand-logo" src="./assets/images/logo" alt="Anadolu Toptan" />
+        </a>
         <nav class="main-nav">
+          <a href="../index.html" class="nav-home" aria-label="Ana sayfa">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 12h3v8h5v-6h4v6h5v-8h3L12 3Z" fill="currentColor"/></svg>
+            <span>Ana Sayfa</span>
+          </a>
+          <span class="nav-sep" aria-hidden="true">|</span>
           <a href="#urunler">Ürünler</a>
-          <a href="#hizmet">Hizmet</a>
+          <a href="#hizmet">Hizmet Modeli</a>
           <a href="#teslimat">Teslimat</a>
-          <a href="#iletisim" class="nav-cta">Fiyat Al</a>
+          <a href="#musteriler">Müşteriler</a>
+          <a href="#sss">S.S.S.</a>
+          <a href="#iletisim" class="nav-cta">Fiyat Listesi Al</a>
         </nav>
       </div>
     </header>
@@ -42,50 +61,89 @@
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">MAHALLE FIRINI GÜVENİ</p>
-            <h1>Her sabah işletmelere taze simit, poğaça ve açma gönderen toptan çözüm</h1>
+            <span class="badge">
+              <span class="dot"></span> Sabah 04:30 itibarıyla araçlar yolda
+            </span>
+            <h1>Her sabah taze simit, poğaça ve açma. <em>Saat gibi işleyen</em> bir toptan fırın.</h1>
             <p class="lead">
-              Büfeler, okul kantinleri, çay ocakları, marketler ve sabah satışı güçlü
-              noktalar için günlük üretim, düzenli rota ve sabit sipariş planı sağlıyoruz.
+              Büfeler, marketler, okul kantinleri ve çay ocakları için 14 yıldır planlı
+              üretim, sabit rota ve tekrar eden sipariş modeliyle çalışıyoruz. Açılışa
+              yetişen teslimat, standart gramaj ve net fatura düzeniyle.
             </p>
             <div class="hero-actions">
-              <a href="#iletisim" class="button primary">Fiyat Listesi Al</a>
-              <a href="#urunler" class="button secondary">Ürünleri Gör</a>
+              <a href="#iletisim" class="button primary">
+                Fiyat Listesi İste
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+              </a>
+              <a href="#urunler" class="button secondary">Ürün Kataloğunu Gör</a>
             </div>
-            <div class="hero-stats">
-              <article><strong>12.000+</strong><span>günlük adet çıkış</span></article>
-              <article><strong>48</strong><span>düzenli teslim noktası</span></article>
-              <article><strong>04:30</strong><span>ilk araç çıkışı</span></article>
-            </div>
+            <ul class="hero-trust">
+              <li><strong>ISO 22000</strong><span>Gıda güvenliği</span></li>
+              <li><strong>HACCP</strong><span>Üretim disiplini</span></li>
+              <li><strong>TSE</strong><span>Sertifikalı tesis</span></li>
+            </ul>
           </div>
           <aside class="hero-media">
-            <img src="./assets/images/simit-pogaca-vitrin.jpg" alt="Simit poğaça vitrini" />
-            <div class="media-box">
-              <strong>Bugün en çok çıkanlar</strong>
-              <ul>
-                <li>Sokak simidi</li>
-                <li>Peynirli poğaça</li>
-                <li>Zeytinli açma</li>
-                <li>Sade poğaça</li>
-              </ul>
+            <div class="hero-media-frame">
+              <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80" alt="Fırından yeni çıkmış taze ekmek ve poğaçalar" />
+              <div class="media-tag">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 2 7l10 5 10-5-10-5Zm0 8L2 5v12l10 5 10-5V5l-10 5Z" fill="currentColor"/></svg>
+                Günlük üretim · 12.000+ adet
+              </div>
+            </div>
+            <div class="media-stats">
+              <article>
+                <strong>48+</strong>
+                <span>sabit teslim noktası</span>
+              </article>
+              <article>
+                <strong>04:30</strong>
+                <span>ilk araç çıkışı</span>
+              </article>
+              <article>
+                <strong>14 yıl</strong>
+                <span>kesintisiz üretim</span>
+              </article>
             </div>
           </aside>
+        </div>
+      </section>
+
+      <section class="logo-strip" aria-label="Birlikte çalıştığımız noktalar">
+        <div class="container">
+          <p>Birlikte çalıştığımız bazı zincir ve bayilikler</p>
+          <div class="logo-row">
+            <span>Marmara Büfe</span>
+            <span>Kantin Plus</span>
+            <span>Mavi Market</span>
+            <span>Çay Ocağı Co.</span>
+            <span>Sabah Kafe</span>
+            <span>Okul Kantinleri Birliği</span>
+          </div>
         </div>
       </section>
 
       <section class="feature-strip">
         <div class="container strip-grid">
           <article>
+            <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v2H4zM4 11h16v2H4zM4 16h10v2H4z" fill="currentColor"/></svg></div>
             <strong>Sabit üretim disiplini</strong>
-            <p>Her gün aynı kaliteyi koruyan planlı hamur ve pişirme akışı.</p>
+            <p>Aynı hamur, aynı fırın saati, aynı gramaj. Her gün aynı kalite.</p>
           </article>
           <article>
-            <strong>Bölgesel dağıtım düzeni</strong>
-            <p>Rota bazlı çıkışla ürünlerin açılıştan önce noktaya ulaşması.</p>
+            <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13h2l2-6h10l2 6h2v6h-2a2 2 0 1 1-4 0H9a2 2 0 1 1-4 0H3z" fill="currentColor"/></svg></div>
+            <strong>Bölgesel dağıtım</strong>
+            <p>Rotalı sevkiyatla açılıştan önce noktaya ulaşan ürün.</p>
           </article>
           <article>
+            <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1 3 5v6c0 5 3.8 9.7 9 11 5.2-1.3 9-6 9-11V5l-9-4Zm-1 15-4-4 1.4-1.4L11 13.2l5.6-5.6L18 9l-7 7Z" fill="currentColor"/></svg></div>
+            <strong>Gıda güvenliği</strong>
+            <p>ISO 22000 ve HACCP uyumlu hat. Düzenli denetim ve raporlama.</p>
+          </article>
+          <article>
+            <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20Zm1-11V6h-2v6l5.2 3.1 1-1.7L13 11Z" fill="currentColor"/></svg></div>
             <strong>Kolay sipariş tekrarı</strong>
-            <p>Günlük, haftalık veya sabit siparişle hızlı operasyon yönetimi.</p>
+            <p>Günlük, haftalık veya sabit şablonla tek tıkla tekrar sipariş.</p>
           </article>
         </div>
       </section>
@@ -95,27 +153,85 @@
           <div class="section-head">
             <p class="eyebrow">ÜRÜN GRUPLARI</p>
             <h2>En çok dönen günlük satış ürünleri</h2>
+            <p class="section-sub">
+              Her ürün standart gramajda, günün ilk çıkışında hazır. Minimum sipariş adedi
+              nokta tipine göre belirlenir, karışık palet mümkündür.
+            </p>
           </div>
           <div class="product-grid">
             <article>
-              <h3>Sokak Simidi</h3>
-              <p>Sabah saatlerinde en hızlı satan klasik ürün grubu.</p>
-              <span>Susamlı klasik seri</span>
+              <div class="product-img">
+                <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=800&q=80" alt="Sokak simidi" />
+                <span class="product-tag">En çok satan</span>
+              </div>
+              <div class="product-body">
+                <h3>Sokak Simidi</h3>
+                <p>Susamlı, klasik kıvamda, 90 gr sabit gramaj. Sabah servisi için birinci tercih.</p>
+                <div class="product-meta">
+                  <span>90 gr</span><span>Paket: 40 adet</span>
+                </div>
+              </div>
             </article>
             <article>
-              <h3>Peynirli Poğaça</h3>
-              <p>Kantin ve büfe satışında devamlı talep gören seçenek.</p>
-              <span>Kahvaltılık yoğun talep</span>
+              <div class="product-img">
+                <img src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=800&q=80" alt="Peynirli poğaça" />
+              </div>
+              <div class="product-body">
+                <h3>Peynirli Poğaça</h3>
+                <p>Beyaz peynirli, yumuşak iç dokulu. Kantin ve büfe talebinde sabit liderlik.</p>
+                <div class="product-meta">
+                  <span>70 gr</span><span>Paket: 50 adet</span>
+                </div>
+              </div>
             </article>
             <article>
-              <h3>Zeytinli Açma</h3>
-              <p>Çay yanında tercih edilen yumuşak doku odaklı ürün.</p>
-              <span>Sabah servis tamamlayıcısı</span>
+              <div class="product-img">
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80" alt="Zeytinli açma" />
+              </div>
+              <div class="product-body">
+                <h3>Zeytinli Açma</h3>
+                <p>Kara zeytin ve zeytinyağı ile yoğrulmuş klasik açma. Çay yanında satış ürünü.</p>
+                <div class="product-meta">
+                  <span>80 gr</span><span>Paket: 40 adet</span>
+                </div>
+              </div>
             </article>
             <article>
-              <h3>Mini Ürünler</h3>
-              <p>Toplu alım yapan noktalara uygun daha kontrollü seri.</p>
-              <span>Gramajı sabit üretim</span>
+              <div class="product-img">
+                <img src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?auto=format&fit=crop&w=800&q=80" alt="Çikolatalı çörek" />
+              </div>
+              <div class="product-body">
+                <h3>Çikolatalı Çörek</h3>
+                <p>Okul kantinleri ve kafelerde öne çıkan, sabit dolgulu tatlı çörek.</p>
+                <div class="product-meta">
+                  <span>60 gr</span><span>Paket: 60 adet</span>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="product-img">
+                <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80" alt="Sade poğaça" />
+              </div>
+              <div class="product-body">
+                <h3>Sade Poğaça</h3>
+                <p>Sade iç, yumuşak doku. Dolgulu türlere baz oluşturan klasik ürün.</p>
+                <div class="product-meta">
+                  <span>70 gr</span><span>Paket: 50 adet</span>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="product-img">
+                <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80" alt="Mini ürün seti" />
+                <span class="product-tag alt">Yeni</span>
+              </div>
+              <div class="product-body">
+                <h3>Mini Kokteyl Seti</h3>
+                <p>Toplantı, etkinlik ve otel kahvaltısı için gramajı sabit mini çeşitler.</p>
+                <div class="product-meta">
+                  <span>25-30 gr</span><span>Paket: 80 adet</span>
+                </div>
+              </div>
             </article>
           </div>
         </div>
@@ -125,55 +241,249 @@
         <div class="container two-col">
           <div class="text-block">
             <p class="eyebrow">NASIL ÇALIŞIYORUZ</p>
-            <h2>Esnaf sıcaklığını bırakmadan düzenli tedarik yapısı kuruyoruz</h2>
+            <h2>Esnaf sıcaklığı. Kurumsal düzen.</h2>
             <p>
-              Noktanın günlük hareketine göre sipariş miktarını belirliyor, sevkiyat
-              saatini netleştiriyor ve satış ritmine uygun tekrar planı oluşturuyoruz.
+              Noktanın günlük hareketine göre sipariş miktarını birlikte belirliyor,
+              sevkiyat saatini sabitliyor ve satış ritmine göre tekrar planı kuruyoruz.
+              İlk hafta gözlem, ikinci hafta optimizasyon, üçüncü hafta tam sabit çalışma.
             </p>
+            <a href="#iletisim" class="button primary">Planlama görüşmesi başlat</a>
           </div>
           <div class="steps">
             <article>
-              <strong>1. İhtiyaç belirleme</strong>
-              <p>Hangi ürünlerin ne kadar gerektiği netleştirilir.</p>
+              <span class="step-no">01</span>
+              <div>
+                <strong>İhtiyaç ve nokta analizi</strong>
+                <p>Nokta hacmi, açılış saati ve en çok dönen ürün tespiti yapılır.</p>
+              </div>
             </article>
             <article>
-              <strong>2. Rota planı</strong>
-              <p>Sabah teslimat saatine göre servis düzeni çıkarılır.</p>
+              <span class="step-no">02</span>
+              <div>
+                <strong>Rota ve saat planı</strong>
+                <p>Bölgedeki noktalar gruplanır, açılışa uygun servis saati çıkarılır.</p>
+              </div>
             </article>
             <article>
-              <strong>3. Sabit çalışma</strong>
-              <p>Düzenli üretim ve kolay tekrar sipariş yapısı kurulur.</p>
+              <span class="step-no">03</span>
+              <div>
+                <strong>Numune haftası</strong>
+                <p>İlk 7 gün örnek gönderimle ürün-talep eşleşmesi test edilir.</p>
+              </div>
+            </article>
+            <article>
+              <span class="step-no">04</span>
+              <div>
+                <strong>Sabit operasyon</strong>
+                <p>Günlük / haftalık şablonla tekrar eden sipariş düzeni devreye alınır.</p>
+              </div>
             </article>
           </div>
         </div>
       </section>
 
+      <section class="section counters-section">
+        <div class="container counters">
+          <article>
+            <strong>12.000+</strong>
+            <span>Günlük üretim adedi</span>
+          </article>
+          <article>
+            <strong>48</strong>
+            <span>Sabit teslim noktası</span>
+          </article>
+          <article>
+            <strong>14</strong>
+            <span>Yıllık kesintisiz üretim</span>
+          </article>
+          <article>
+            <strong>%99,4</strong>
+            <span>Zamanında teslim oranı</span>
+          </article>
+        </div>
+      </section>
+
       <section class="section" id="teslimat">
-        <div class="container delivery-panel">
-          <div>
+        <div class="container delivery-wrap">
+          <div class="section-head centered">
             <p class="eyebrow">TESLİMAT AKIŞI</p>
-            <h2>Sabah satışının aksamaması için erken saat çıkış planı</h2>
+            <h2>Sabah satışının aksamaması için dakika bazlı plan</h2>
           </div>
-          <ul>
-            <li>03:00 - 05:00 üretim ve hazırlık</li>
-            <li>05:00 - 07:30 bölgesel sevkiyat</li>
-            <li>07:30 sonrası ek sipariş desteği</li>
-          </ul>
+          <div class="timeline">
+            <article>
+              <span class="t-hour">03:00</span>
+              <strong>Hamur hazırlığı</strong>
+              <p>Gece ekibi dinlendirmeli hamuru açar. Fırınlar ısıtılır.</p>
+            </article>
+            <article>
+              <span class="t-hour">04:30</span>
+              <strong>İlk araç çıkışı</strong>
+              <p>Nilüfer-Osmangazi rotası paketlenmiş şekilde yola çıkar.</p>
+            </article>
+            <article>
+              <span class="t-hour">05:30</span>
+              <strong>Doğu hattı</strong>
+              <p>Yıldırım, Gürsu ve Kestel noktalarına teslimat başlar.</p>
+            </article>
+            <article>
+              <span class="t-hour">07:30</span>
+              <strong>Ek sipariş turu</strong>
+              <p>Günlük ek talep olan noktalar için ikinci servis.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonial-section" id="musteriler">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">MÜŞTERİ YORUMLARI</p>
+            <h2>Sabah vitrini bizim işimizin en önemli parçası</h2>
+          </div>
+          <div class="testimonial-grid">
+            <article>
+              <div class="quote-mark">“</div>
+              <p>
+                3 yıldır Anadolu Toptan'la çalışıyoruz. Kapımız 06:30'da açılıyor ve tek bir
+                sabah ürünsüz kalmadık. Simit sabit 90 gr, peynirli poğaça tam kıvamında.
+              </p>
+              <footer>
+                <img src="https://i.pravatar.cc/80?img=32" alt="" />
+                <div>
+                  <strong>Mehmet Demir</strong>
+                  <span>Marmara Büfe · Nilüfer</span>
+                </div>
+              </footer>
+            </article>
+            <article>
+              <div class="quote-mark">“</div>
+              <p>
+                Okul kantininde en zor olan düzenli tedarik. Anadolu Toptan ile haftalık
+                şablonumuz var, saat 07:00'de mutlaka masada. Öğrencilerden şikayet gelmiyor.
+              </p>
+              <footer>
+                <img src="https://i.pravatar.cc/80?img=47" alt="" />
+                <div>
+                  <strong>Ayşe Kaya</strong>
+                  <span>Kantin Plus · Osmangazi</span>
+                </div>
+              </footer>
+            </article>
+            <article>
+              <div class="quote-mark">“</div>
+              <p>
+                Market zincirimizde 11 noktaya aynı saatte teslim ediyorlar. Fatura düzeni
+                ve iade politikası kurumsal firmalardan daha iyi işliyor, şaşırdık açıkçası.
+              </p>
+              <footer>
+                <img src="https://i.pravatar.cc/80?img=12" alt="" />
+                <div>
+                  <strong>Kerem Yıldız</strong>
+                  <span>Mavi Market Zinciri</span>
+                </div>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="sss">
+        <div class="container faq-wrap">
+          <div class="section-head">
+            <p class="eyebrow">SIK SORULAN SORULAR</p>
+            <h2>Başlamadan önce bilinmesi faydalı birkaç nokta</h2>
+          </div>
+          <div class="faq-list">
+            <details open>
+              <summary>Minimum sipariş adedi nedir?</summary>
+              <p>
+                Nokta tipine göre değişir. Büfe ve çay ocakları için günlük 40 adet,
+                zincir ve kantinler için 150 adet üzeri standart çalışma yapıyoruz.
+              </p>
+            </details>
+            <details>
+              <summary>Teslimat saatini kendim belirleyebilir miyim?</summary>
+              <p>
+                Evet. Rotamızda 04:30–07:30 arası saat dilimleri var. Noktanızın
+                açılış saatine göre 15 dakika hassasiyetle sabit teslimat planlarız.
+              </p>
+            </details>
+            <details>
+              <summary>Fiyat değişiklikleri nasıl bildiriliyor?</summary>
+              <p>
+                Fiyatlar un ve yağ endeksine bağlı çeyreklik revize edilir. Değişiklik
+                10 gün önceden WhatsApp ve e-posta ile tüm müşterilere iletilir.
+              </p>
+            </details>
+            <details>
+              <summary>Satılmayan ürün iadesi kabul ediyor musunuz?</summary>
+              <p>
+                İlk 4 hafta sabit sipariş denemesinde iade kabul ediyoruz. Sonrasında
+                noktanın satış verisine göre sipariş miktarını birlikte optimize ediyoruz.
+              </p>
+            </details>
+            <details>
+              <summary>Hangi bölgelere teslimat yapıyorsunuz?</summary>
+              <p>
+                Bursa merkezde Nilüfer-Osmangazi hattı, doğu aksında Yıldırım-Gürsu-Kestel
+                hattı düzenli rotamız. Mudanya, Gemlik ve İnegöl için minimum sipariş şartı
+                uygulanıyor.
+              </p>
+            </details>
+          </div>
         </div>
       </section>
 
       <section class="section contact-section" id="iletisim">
         <div class="container contact-grid">
-          <div>
+          <div class="contact-copy">
             <p class="eyebrow">İLETİŞİM</p>
-            <h2>Bayi fiyatı ve sabit sipariş planı için ulaşın</h2>
-            <p>İşletmenizin günlük satış temposuna göre uygun ürün planı oluşturalım.</p>
+            <h2>Bayi fiyatı ve sabit sipariş planı için bize yazın</h2>
+            <p>
+              İşletmenizin günlük satış temposuna göre uygun ürün planı ve fiyat
+              kademesi oluşturalım. Ortalama 24 saat içinde dönüş yapıyoruz.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1Z" fill="currentColor"/></svg>
+                <div><strong>Sipariş hattı</strong><span>0224 123 45 67 · Her gün 06:00–18:00</span></div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 2v.5l8 5 8-5V6H4Zm0 2.6V18h16V8.6l-8 5-8-5Z" fill="currentColor"/></svg>
+                <div><strong>Teklif talebi</strong><span>teklif@anadolutoptan.com.tr</span></div>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z" fill="currentColor"/></svg>
+                <div><strong>Üretim tesisi</strong><span>Demirtaş Sanayi Sitesi, Osmangazi / Bursa</span></div>
+              </li>
+            </ul>
           </div>
-          <form class="contact-card">
-            <input type="text" placeholder="İşletme adı" />
-            <input type="text" placeholder="Telefon numarası" />
-            <input type="text" placeholder="Talep edilen ürünler" />
-            <button type="button">Teklif Talebi Gönder</button>
+          <form class="contact-card" onsubmit="event.preventDefault();">
+            <strong>Fiyat listesi talebi</strong>
+            <label>
+              İşletme adı
+              <input type="text" placeholder="Örn. Marmara Büfe" required />
+            </label>
+            <label>
+              Telefon
+              <input type="tel" placeholder="0___ ___ __ __" required />
+            </label>
+            <label>
+              Nokta tipi
+              <select>
+                <option>Büfe / Market</option>
+                <option>Okul kantini</option>
+                <option>Kafe / Çay ocağı</option>
+                <option>Otel / Kurumsal</option>
+                <option>Diğer</option>
+              </select>
+            </label>
+            <label>
+              İlgilendiğiniz ürünler
+              <textarea rows="3" placeholder="Simit, poğaça, açma..."></textarea>
+            </label>
+            <button type="submit" class="button primary">Teklif Talebi Gönder</button>
+            <small>Formu göndererek iletişim için onay vermiş olursunuz.</small>
           </form>
         </div>
       </section>
@@ -182,22 +492,35 @@
     <footer class="site-footer">
       <div class="container footer-grid">
         <div>
-          <strong>Anadolu Toptan</strong>
-          <p>Günlük üretim, sabah teslimat ve düzenli sipariş modeliyle çalışan toptan fırın ürünleri tedarikçisi.</p>
+          <div class="footer-brand">
+            <img src="./assets/images/logo" alt="Anadolu Toptan" />
+          </div>
+          <p>Günlük üretim, sabah teslimat ve düzenli sipariş modeliyle çalışan toptan fırın ürünleri tedarikçisi. Est. 2011.</p>
         </div>
         <div>
           <strong>Hızlı Menü</strong>
           <a href="#urunler">Ürünler</a>
           <a href="#hizmet">Hizmet Modeli</a>
           <a href="#teslimat">Teslimat</a>
+          <a href="#sss">S.S.S.</a>
         </div>
         <div>
           <strong>Çalışılan Noktalar</strong>
-          <p>Büfeler, marketler, kantinler, çay ocakları ve kahvaltılık satış noktaları.</p>
+          <a href="#">Büfe ve marketler</a>
+          <a href="#">Okul kantinleri</a>
+          <a href="#">Çay ocakları ve kafeler</a>
+          <a href="#">Otel kahvaltı servisleri</a>
+        </div>
+        <div>
+          <strong>İletişim</strong>
+          <a href="tel:+902241234567">0224 123 45 67</a>
+          <a href="mailto:teklif@anadolutoptan.com.tr">teklif@anadolutoptan.com.tr</a>
+          <a href="https://wa.me/905551234567">WhatsApp sipariş hattı</a>
         </div>
       </div>
       <div class="container footer-bottom">
-        <small>POWERED BY ATOSWEB</small>
+        <small>© 2026 Anadolu Toptan · Tüm hakları saklıdır</small>
+        <small>POWERED BY <a href="https://atos.web.tr" target="_blank" rel="noopener">ATOSWEB</a></small>
       </div>
     </footer>
   </body>

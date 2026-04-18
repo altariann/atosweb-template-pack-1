@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fırın Tedarik</title>
+    <title>Fırın Tedarik — Kurumsal Fırın Ürünleri Tedariği</title>
+    <meta
+      name="description"
+      content="Okul, otel, zincir kafe ve kurumsal yemekhanelere standart gramaj, planlı teslimat ve raporlanabilir sipariş modeliyle fırın ürünleri tedariği."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Archivo:wght@700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Archivo:wght@600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
@@ -15,24 +19,34 @@
   <body>
     <div class="utility-bar">
       <div class="container utility-inner">
-        <span>KURUMSAL ALIM VE DÜZENLİ TESLİMAT</span>
-        <span>Okul, otel, zincir kafe ve bayi noktalarına uygun model</span>
+        <span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm1 5v5.4l4.3 2.5-.8 1.4L11 13V7h2Z" fill="currentColor"/></svg>
+          Kurumsal alım · 6 gün teslimat · standart gramaj
+        </span>
+        <span class="util-links">
+          <a href="#musteri-girisi">Müşteri girişi</a>
+          <a href="#teklif">Numune talebi</a>
+          <a href="tel:+902249876543">+90 224 987 65 43</a>
+        </span>
       </div>
     </div>
 
     <header class="site-header">
       <div class="container nav-row">
-        <div class="brand">
-          <img class="brand-logo" src="./assets/images/logo" alt="Atosweb logo" />
-          <div>
-            <strong>Fırın Tedarik</strong>
-            <p>Kurumsal toplu alım için sade ve net tedarik yapısı</p>
-          </div>
-        </div>
+        <a class="brand" href="#" aria-label="Fırın Tedarik">
+          <img class="brand-logo" src="./assets/images/logo" alt="Fırın Tedarik" />
+        </a>
         <nav class="main-nav">
+          <a href="../index.html" class="nav-home" aria-label="Ana sayfa">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 12h3v8h5v-6h4v6h5v-8h3L12 3Z" fill="currentColor"/></svg>
+            <span>Ana Sayfa</span>
+          </a>
+          <span class="nav-sep" aria-hidden="true">|</span>
           <a href="#katalog">Katalog</a>
           <a href="#sektorler">Sektörler</a>
           <a href="#surec">Süreç</a>
+          <a href="#kalite">Kalite</a>
+          <a href="#referanslar">Referanslar</a>
           <a href="#teklif" class="nav-cta">Teklif İste</a>
         </nav>
       </div>
@@ -42,25 +56,81 @@
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">KURUMSAL TEDARİK MODELİ</p>
-            <h1>Okul, bayi, otel ve zincir işletmelere düzenli fırın ürünleri tedariki</h1>
+            <span class="badge">
+              <span class="dot"></span> 26 kurumsal müşteri · 180+ ürün varyasyonu
+            </span>
+            <h1>
+              Kurumsal fırın ürünleri tedariği için <span class="underline">standartlaşmış</span> bir model
+            </h1>
             <p class="lead">
-              Ürün standardı, planlı teslimat ve raporlanabilir sipariş düzeni isteyen
-              işletmeler için daha net, daha kurumsal ve daha güven veren bir sayfa yapısı.
+              Oteller, okullar, zincir kafeler, yemekhane işletmeleri ve akaryakıt
+              zincirleri için ürün standardı, planlı teslimat ve dijital sipariş altyapısı
+              sunuyoruz. Raporlanabilir, denetlenebilir, tekrar edilebilir.
             </p>
             <div class="hero-actions">
-              <a href="#teklif" class="button primary">Kurumsal Teklif İste</a>
-              <a href="#katalog" class="button secondary">Katalogu Gör</a>
+              <a href="#teklif" class="button primary">
+                Kurumsal Teklif İste
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+              </a>
+              <a href="#katalog" class="button secondary">Katalog · 180+ ürün</a>
+            </div>
+            <div class="cert-row">
+              <div class="cert">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.6 8 11 4.6-1.4 8-6 8-11V5l-8-3Zm-1 15-4-4 1.4-1.4L11 14.2l5.6-5.6L18 10l-7 7Z" fill="currentColor"/></svg>
+                <div><strong>ISO 22000</strong><span>Gıda güvenlik yönetimi</span></div>
+              </div>
+              <div class="cert">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.6 8 11 4.6-1.4 8-6 8-11V5l-8-3Zm-1 15-4-4 1.4-1.4L11 14.2l5.6-5.6L18 10l-7 7Z" fill="currentColor"/></svg>
+                <div><strong>HACCP</strong><span>Üretim disiplini</span></div>
+              </div>
+              <div class="cert">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.6 8 11 4.6-1.4 8-6 8-11V5l-8-3Zm-1 15-4-4 1.4-1.4L11 14.2l5.6-5.6L18 10l-7 7Z" fill="currentColor"/></svg>
+                <div><strong>Helal</strong><span>Sertifikalı üretim</span></div>
+              </div>
             </div>
           </div>
-          <div class="hero-side">
-            <img src="./assets/images/turkish-simit.jpg" alt="Türk simidi" />
-            <div class="metric-grid">
-              <article><strong>26</strong><span>kurumsal müşteri</span></article>
-              <article><strong>180+</strong><span>ürün varyasyonu</span></article>
-              <article><strong>6 gün</strong><span>haftalık sevkiyat</span></article>
-              <article><strong>3 aşama</strong><span>net tedarik süreci</span></article>
+          <aside class="hero-side">
+            <div class="hero-card">
+              <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=1200&q=80" alt="Standart gramajda fırın ürünleri" />
+              <div class="hero-card-body">
+                <div class="card-top">
+                  <span class="tag">Canlı metrik</span>
+                  <span class="status"><span class="live"></span> Üretim aktif</span>
+                </div>
+                <div class="metric-grid">
+                  <article>
+                    <strong>26</strong>
+                    <span>Kurumsal müşteri</span>
+                  </article>
+                  <article>
+                    <strong>180+</strong>
+                    <span>Ürün varyasyonu</span>
+                  </article>
+                  <article>
+                    <strong>6 gün</strong>
+                    <span>Haftalık teslimat</span>
+                  </article>
+                  <article>
+                    <strong>%99,6</strong>
+                    <span>Zamanında teslim</span>
+                  </article>
+                </div>
+              </div>
             </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="partner-strip">
+        <div class="container">
+          <p>Güvendiği işletmeler arasında</p>
+          <div class="partner-row">
+            <span>OTELLER A.Ş.</span>
+            <span>CAMPUS EDU</span>
+            <span>PETROL-X</span>
+            <span>ZincirKafe</span>
+            <span>Hastane Grubu</span>
+            <span>Plaza Catering</span>
           </div>
         </div>
       </section>
@@ -69,23 +139,102 @@
         <div class="container">
           <div class="section-head">
             <p class="eyebrow">KATALOG</p>
-            <h2>Kurumsal alımda en çok tercih edilen ana kategoriler</h2>
+            <h2>Kurumsal alımda en çok tercih edilen kategoriler</h2>
+            <p class="section-sub">
+              Her kategori standart gramaj ve paket adetleriyle sunulur. Özel üretim ve
+              marka altı (private label) çalışmalar için ayrı hat ayırıyoruz.
+            </p>
           </div>
           <div class="catalog-grid">
             <article>
-              <span>01</span>
-              <strong>Kahvaltılık Ürünler</strong>
-              <p>Simit, poğaça, açma ve sabah satışı güçlü ana ürünler.</p>
+              <div class="cat-img">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80" alt="Kahvaltılık ürünler" />
+              </div>
+              <div class="cat-body">
+                <span class="cat-no">01</span>
+                <h3>Kahvaltılık Ürünler</h3>
+                <p>Simit, poğaça, açma ve kahvaltı satışı güçlü ana ürünler. 45+ varyasyon.</p>
+                <ul>
+                  <li>Sokak simidi · 90 gr</li>
+                  <li>Peynirli / zeytinli poğaça</li>
+                  <li>Mini açma · 35 gr</li>
+                </ul>
+              </div>
             </article>
             <article>
-              <span>02</span>
-              <strong>Paketli Servis Çözümleri</strong>
-              <p>Gramajı sabit, standart kullanıma uygun pratik alternatifler.</p>
+              <div class="cat-img">
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80" alt="Paketli servis çözümleri" />
+              </div>
+              <div class="cat-body">
+                <span class="cat-no">02</span>
+                <h3>Paketli Servis Çözümleri</h3>
+                <p>Gramajı ve ambalajı sabit, standart kullanıma uygun pratik alternatifler.</p>
+                <ul>
+                  <li>Tekli ambalajlı ürünler</li>
+                  <li>Oda servisi uyumlu paketleme</li>
+                  <li>Son kullanma etiketli seriler</li>
+                </ul>
+              </div>
             </article>
             <article>
-              <span>03</span>
-              <strong>Toplu Organizasyon Çıkışı</strong>
-              <p>Etkinlik, toplantı ve okul kullanımı için yüksek adetli üretim.</p>
+              <div class="cat-img">
+                <img src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?auto=format&fit=crop&w=800&q=80" alt="Toplu organizasyon çıkışı" />
+              </div>
+              <div class="cat-body">
+                <span class="cat-no">03</span>
+                <h3>Toplu Organizasyon Çıkışı</h3>
+                <p>Etkinlik, toplantı ve okul kullanımı için yüksek adetli planlı üretim.</p>
+                <ul>
+                  <li>Mini kokteyl seti · 30 gr</li>
+                  <li>Kongre / konferans paketleri</li>
+                  <li>Catering dostu ambalaj</li>
+                </ul>
+              </div>
+            </article>
+            <article>
+              <div class="cat-img">
+                <img src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=800&q=80" alt="Tatlı ve pastane ürünleri" />
+              </div>
+              <div class="cat-body">
+                <span class="cat-no">04</span>
+                <h3>Tatlı ve Pastane Ürünleri</h3>
+                <p>Çörek, kek, kurabiye ve dolgulu seriler. Zincir kafe menülerine uygun.</p>
+                <ul>
+                  <li>Çikolatalı / bisküvili çörek</li>
+                  <li>Porsiyonlu kek dilimleri</li>
+                  <li>Vakum ambalajlı kurabiyeler</li>
+                </ul>
+              </div>
+            </article>
+            <article>
+              <div class="cat-img">
+                <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=800&q=80" alt="Tuzlu ve pideli ürünler" />
+              </div>
+              <div class="cat-body">
+                <span class="cat-no">05</span>
+                <h3>Tuzlu ve Pide Grubu</h3>
+                <p>Sandviç ve pide ekmeği, kumpir ekmeği gibi servis odaklı ana mallar.</p>
+                <ul>
+                  <li>Sandviç ekmeği (öğün)</li>
+                  <li>Tombik ve bazlama</li>
+                  <li>Otel tipi mini ekmek</li>
+                </ul>
+              </div>
+            </article>
+            <article>
+              <div class="cat-img">
+                <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?auto=format&fit=crop&w=800&q=80" alt="Özel üretim ve private label" />
+              </div>
+              <div class="cat-body">
+                <span class="cat-no">06</span>
+                <h3>Private Label Üretim</h3>
+                <p>Kendi markanız altında üretim, özel gramaj ve ambalaj tasarımı çalışması.</p>
+                <ul>
+                  <li>MOQ: günlük 500 adet</li>
+                  <li>Özel ambalaj tasarımı</li>
+                  <li>Marka standardı raporu</li>
+                </ul>
+              </div>
             </article>
           </div>
         </div>
@@ -94,57 +243,282 @@
       <section class="section alt" id="sektorler">
         <div class="container sector-wrap">
           <div class="text-block">
-            <p class="eyebrow">HİZMET VERİLEN ALANLAR</p>
+            <p class="eyebrow">HİZMET VERİLEN SEKTÖRLER</p>
             <h2>Çok noktalı operasyonlara uygun planlı çalışma yapısı</h2>
             <p>
-              Özellikle günlük siparişten çok düzenli tüketimi olan işletmeler için daha
-              kontrollü bir tedarik modeli sunuyoruz.
+              Günlük sipariş yerine sabit ve öngörülebilir tüketimi olan işletmelere
+              hizmet sunuyoruz. Her sektöre özel ürün seti, teslim planı ve ambalaj
+              standardı hazırlıyoruz.
             </p>
+            <a href="#teklif" class="button primary">Sektörünüze özel plan talep edin</a>
           </div>
           <div class="sector-grid">
-            <div>Okul kantinleri</div>
-            <div>Otel kahvaltı servisleri</div>
-            <div>Zincir kafeler</div>
-            <div>Akaryakıt istasyonları</div>
-            <div>Hastane kafeteryaları</div>
-            <div>Kurumsal yemekhaneler</div>
+            <div>
+              <svg viewBox="0 0 24 24"><path d="M3 20V10l9-6 9 6v10h-6v-6H9v6H3Z" fill="currentColor"/></svg>
+              <strong>Otel kahvaltı servisleri</strong>
+              <p>Mini çeşitlilik, gramaj standardı, oda servisi paketleme.</p>
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24"><path d="M12 3 2 9l10 6 10-6-10-6Zm0 9L4 8v5l8 5 8-5V8l-8 4Z" fill="currentColor"/></svg>
+              <strong>Okul kantinleri</strong>
+              <p>MEB kantin kurallarına uygun gramaj ve ambalaj.</p>
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24"><path d="M4 4h16v6h-2v10H6V10H4V4Zm6 8v6h4v-6h-4Z" fill="currentColor"/></svg>
+              <strong>Zincir kafe operasyonları</strong>
+              <p>Menü standardı, private label ve günlük rota teslimatı.</p>
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24"><path d="M3 13h2V7h9v6h2V9h3l2 3v3h-2a2 2 0 1 1-4 0H9a2 2 0 1 1-4 0H3v-2Z" fill="currentColor"/></svg>
+              <strong>Akaryakıt istasyonları</strong>
+              <p>Gece açık noktalar için sabit raf ürünü ve tekli paketleme.</p>
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24"><path d="M12 2c3 4 6 6.5 6 10a6 6 0 1 1-12 0c0-3.5 3-6 6-10Z" fill="currentColor"/></svg>
+              <strong>Hastane kafeteryaları</strong>
+              <p>Alerjen bildirimi, gluten etiketleme, hijyen raporlama.</p>
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24"><path d="M4 7h16v2H4V7Zm0 4h16v10H4V11Zm4 2v6h8v-6H8Z" fill="currentColor"/></svg>
+              <strong>Kurumsal yemekhaneler</strong>
+              <p>Günde 1000+ porsiyon için sabit ekmek ve poğaça hattı.</p>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="section" id="surec">
         <div class="container">
-          <div class="section-head">
+          <div class="section-head centered">
             <p class="eyebrow">TEDARİK SÜRECİ</p>
-            <h2>Net adımlarla yürüyen daha tahmin edilebilir bir model</h2>
+            <h2>Net adımlarla yürüyen tahmin edilebilir model</h2>
           </div>
-          <div class="timeline">
+          <div class="process-grid">
             <article>
-              <strong>Talep Analizi</strong>
-              <p>Nokta başı tüketim, ürün grubu ve teslim günü belirlenir.</p>
+              <span class="p-no">01</span>
+              <h3>Talep Analizi</h3>
+              <p>Nokta başı tüketim, ürün grubu, teslim günü ve saat pencereleri çıkarılır.</p>
+              <ul>
+                <li>Nokta ziyareti</li>
+                <li>Tüketim raporu</li>
+                <li>Hedef fiyat bandı</li>
+              </ul>
             </article>
             <article>
-              <strong>Numune ve Onay</strong>
-              <p>Ürün tipi, gramaj ve servis beklentisi netleştirilir.</p>
+              <span class="p-no">02</span>
+              <h3>Numune ve Onay</h3>
+              <p>Ürün tipi, gramaj ve servis beklentisi numune üzerinden netleştirilir.</p>
+              <ul>
+                <li>3 çeşit numune</li>
+                <li>Panel değerlendirme</li>
+                <li>Yazılı onay formu</li>
+              </ul>
             </article>
             <article>
-              <strong>Sabit Operasyon</strong>
-              <p>Takvimli üretim ve sevkiyatla düzenli çalışma başlatılır.</p>
+              <span class="p-no">03</span>
+              <h3>Pilot Hafta</h3>
+              <p>İlk 7 gün gerçek teslimat ve revizyon gerekiyorsa anlık müdahale.</p>
+              <ul>
+                <li>Hat testi</li>
+                <li>Günlük rapor</li>
+                <li>Operasyon doğrulama</li>
+              </ul>
+            </article>
+            <article>
+              <span class="p-no">04</span>
+              <h3>Sabit Operasyon</h3>
+              <p>Takvimli üretim, dijital sipariş portalı ve aylık performans raporu.</p>
+              <ul>
+                <li>Portal kurulumu</li>
+                <li>SLA takibi</li>
+                <li>Aylık değerlendirme</li>
+              </ul>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section" id="teklif">
-        <div class="container quote-panel">
-          <div>
-            <p class="eyebrow">KURUMSAL TEKLİF</p>
-            <h2>Numune planı ve fiyat çalışması için doğrudan iletişime geçin</h2>
+      <section class="section kpi-section">
+        <div class="container kpi-grid">
+          <article>
+            <strong>%99,6</strong>
+            <span>Zamanında teslim</span>
+          </article>
+          <article>
+            <strong>&lt; 18 sa</strong>
+            <span>Teklif dönüş süresi</span>
+          </article>
+          <article>
+            <strong>26</strong>
+            <span>Aktif kurumsal müşteri</span>
+          </article>
+          <article>
+            <strong>12</strong>
+            <span>Yıllık üretim tecrübesi</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section alt" id="kalite">
+        <div class="container quality-grid">
+          <div class="text-block">
+            <p class="eyebrow">KALİTE VE UYUMLULUK</p>
+            <h2>Denetlenebilir, belgelendirilebilir, tekrar edilebilir üretim</h2>
+            <p>
+              Tesisimiz bağımsız denetim firmalarınca yılda iki kez denetlenir. Her
+              müşteri için gıda güvenliği raporu, alerjen bildirimi ve gramaj sapma
+              raporu aylık olarak paylaşılır.
+            </p>
           </div>
-          <div class="quote-actions">
-            <a href="../index.html" class="button secondary">Tüm Demolar</a>
-            <a href="#katalog" class="button primary">Katalogu Tekrar Gör</a>
+          <div class="quality-cards">
+            <article>
+              <strong>ISO 22000:2018</strong>
+              <p>Gıda güvenliği yönetim sistemi. Tesis ve personel sertifikasyonu.</p>
+            </article>
+            <article>
+              <strong>HACCP uygulaması</strong>
+              <p>Tehlike analizi ve kritik kontrol noktası prosedürleri aktif.</p>
+            </article>
+            <article>
+              <strong>Helal üretim</strong>
+              <p>Üçüncü taraf denetimli helal gıda sertifikası.</p>
+            </article>
+            <article>
+              <strong>Gramaj sapma %0,8</strong>
+              <p>Otomatik tartım hattı ile sapma toleransı %1 altında tutulur.</p>
+            </article>
+            <article>
+              <strong>Alerjen bildirimi</strong>
+              <p>Her ürün için gluten, süt, yumurta, fındık vb. detaylı etiket.</p>
+            </article>
+            <article>
+              <strong>Soğuk zincir lojistik</strong>
+              <p>Özel araç filosu ile kontrollü sıcaklıkta teslimat.</p>
+            </article>
           </div>
+        </div>
+      </section>
+
+      <section class="section" id="referanslar">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">REFERANSLAR</p>
+            <h2>Kurumsal müşteriler neden Fırın Tedarik ile çalışıyor?</h2>
+          </div>
+          <div class="case-grid">
+            <article>
+              <div class="case-meta">
+                <span>OTEL ZİNCİRİ</span>
+                <strong>14 otel · günlük 4.800 adet</strong>
+              </div>
+              <p>
+                "Standart gramaj ve oda servisi dostu ambalaj sayesinde kahvaltı
+                operasyonumuzda dakikalar kazandık. Ayrıca faturalandırma tamamen
+                dijitalleşti, finans ekibimiz bu geçişten memnun."
+              </p>
+              <footer>
+                <img src="https://i.pravatar.cc/80?img=15" alt="" />
+                <div>
+                  <strong>Gülşah Arslan</strong>
+                  <span>F&B Direktörü · Oteller A.Ş.</span>
+                </div>
+              </footer>
+            </article>
+            <article>
+              <div class="case-meta">
+                <span>OKUL GRUBU</span>
+                <strong>22 kampüs · 6 farklı ürün</strong>
+              </div>
+              <p>
+                "MEB kantin yönergesine uygun gramaj ve etiketleme şart. Fırın Tedarik'in
+                alerjen bildirimi ve sertifikasyon dosyaları sayesinde denetim süreçlerimiz
+                çok kolay geçiyor."
+              </p>
+              <footer>
+                <img src="https://i.pravatar.cc/80?img=44" alt="" />
+                <div>
+                  <strong>Burak Özdemir</strong>
+                  <span>Satın alma yöneticisi · Campus EDU</span>
+                </div>
+              </footer>
+            </article>
+            <article>
+              <div class="case-meta">
+                <span>ZİNCİR KAFE</span>
+                <strong>41 şube · private label</strong>
+              </div>
+              <p>
+                "Kendi markamız altında özel üretim yapabilmek ciddi bir avantaj. Ambalaj
+                tasarımımız, gramajımız ve iç formülasyonumuz sadece bize özel. Rakiplerden
+                ayrıştık."
+              </p>
+              <footer>
+                <img src="https://i.pravatar.cc/80?img=22" alt="" />
+                <div>
+                  <strong>Emre Çelik</strong>
+                  <span>Operasyon Müdürü · ZincirKafe</span>
+                </div>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-section" id="teklif">
+        <div class="container cta-grid">
+          <div class="cta-copy">
+            <p class="eyebrow" style="color: rgba(255,255,255,0.7)">KURUMSAL TEKLİF</p>
+            <h2>Numune planı ve fiyat çalışması için 18 saat içinde dönüş</h2>
+            <p>
+              Formu dolduran kurumsal müşterilerimize ortalama 18 saat içinde fiyat
+              bandı, numune planı ve tedarik sürecini içeren özet doküman iletiyoruz.
+            </p>
+            <ul class="cta-list">
+              <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>Fiyat bandı ve kademe listesi</li>
+              <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>Numune planı ve lojistik takvimi</li>
+              <li><svg viewBox="0 0 24 24"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>Uyumluluk ve kalite sertifika dosyası</li>
+            </ul>
+          </div>
+          <form class="cta-form" onsubmit="event.preventDefault();">
+            <strong>Kurumsal teklif formu</strong>
+            <div class="row">
+              <label>
+                Firma adı
+                <input type="text" required placeholder="Örn. Oteller A.Ş." />
+              </label>
+              <label>
+                İletişim kişisi
+                <input type="text" required placeholder="Ad soyad" />
+              </label>
+            </div>
+            <div class="row">
+              <label>
+                E-posta
+                <input type="email" required placeholder="siz@firma.com" />
+              </label>
+              <label>
+                Telefon
+                <input type="tel" required placeholder="0___ ___ __ __" />
+              </label>
+            </div>
+            <label>
+              Sektör
+              <select>
+                <option>Otel / konaklama</option>
+                <option>Okul / eğitim kurumu</option>
+                <option>Zincir kafe / restoran</option>
+                <option>Akaryakıt zinciri</option>
+                <option>Hastane / kurumsal yemekhane</option>
+                <option>Diğer</option>
+              </select>
+            </label>
+            <label>
+              İhtiyaç özeti
+              <textarea rows="3" placeholder="Nokta sayısı, tahmini günlük adet, öne çıkan ürünler..."></textarea>
+            </label>
+            <button type="submit" class="button primary">Teklif Talebi Gönder</button>
+            <small>Formu gönderdiğinizde gizlilik politikamızı kabul etmiş olursunuz.</small>
+          </form>
         </div>
       </section>
     </main>
@@ -152,22 +526,42 @@
     <footer class="site-footer">
       <div class="container footer-grid">
         <div>
-          <strong>Fırın Tedarik</strong>
-          <p>Kurumsal toplu alım, standart ürün yönetimi ve planlı teslimat altyapısı için hazırlanmış demo şablon.</p>
+          <div class="footer-brand">
+            <img src="./assets/images/logo" alt="Fırın Tedarik" />
+          </div>
+          <p>Kurumsal toplu alım, standart ürün yönetimi ve planlı teslimat altyapısı için hazırlanmış B2B fırın ürünleri tedarikçisi.</p>
+          <div class="badges">
+            <span>ISO 22000</span>
+            <span>HACCP</span>
+            <span>Helal</span>
+          </div>
         </div>
         <div>
           <strong>Menü</strong>
           <a href="#katalog">Katalog</a>
           <a href="#sektorler">Sektörler</a>
           <a href="#surec">Süreç</a>
+          <a href="#kalite">Kalite</a>
+          <a href="#referanslar">Referanslar</a>
         </div>
         <div>
           <strong>Uygun Müşteriler</strong>
-          <p>Oteller, okullar, zincir yapılar, bayi ağları ve düzenli tüketim noktaları.</p>
+          <a href="#">Oteller ve konaklama</a>
+          <a href="#">Okullar ve eğitim grupları</a>
+          <a href="#">Zincir kafe / restoran</a>
+          <a href="#">Akaryakıt zincirleri</a>
+          <a href="#">Hastane / yemekhane</a>
+        </div>
+        <div>
+          <strong>İletişim</strong>
+          <a href="tel:+902249876543">+90 224 987 65 43</a>
+          <a href="mailto:kurumsal@firintedarik.com">kurumsal@firintedarik.com</a>
+          <a href="#">DOSAB, Osmangazi / Bursa</a>
         </div>
       </div>
       <div class="container footer-bottom">
-        <small>POWERED BY ATOSWEB</small>
+        <small>© 2026 Fırın Tedarik · Tüm hakları saklıdır</small>
+        <small>POWERED BY <a href="https://atos.web.tr" target="_blank" rel="noopener">ATOSWEB</a></small>
       </div>
     </footer>
   </body>
