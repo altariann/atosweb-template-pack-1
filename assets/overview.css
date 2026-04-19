@@ -94,7 +94,21 @@ img { max-width: 100%; display: block; }
   object-fit: contain;
 }
 
-.main-nav { display: flex; align-items: center; gap: 26px; }
+.main-nav { display: flex; align-items: center; gap: 22px; }
+.nav-home {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 6px;
+  color: var(--accent-dark) !important;
+}
+.nav-home svg { width: 18px; height: 18px; }
+.nav-home::after { display: none !important; }
+.nav-sep {
+  color: var(--border);
+  font-weight: 400;
+  user-select: none;
+  margin: 0 -6px;
+}
 .main-nav a {
   color: var(--text);
   text-decoration: none;
