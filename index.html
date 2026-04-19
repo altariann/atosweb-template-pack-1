@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Atosweb HTML Templates</title>
+    <title>Atosweb Template Pack 1 — HTML Demo Koleksiyonu</title>
+    <meta
+      name="description"
+      content="Atosweb'in Bursa merkezli, İstanbul çözüm ortaklı ekibinin küçük-orta ölçekli işletmeler için hazırladığı HTML şablon koleksiyonu. Anadolu Toptan ve Fırın Tedarik demo sayfaları."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Merriweather:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:ital,wght@0,700;0,800;1,600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/overview.css" />
@@ -15,23 +19,29 @@
   <body>
     <div class="utility-bar">
       <div class="container utility-inner">
-        <span>ATOSWEB TEMPLATE KOLEKSIYONU</span>
-        <span>Toptan Simit, Poğaça ve Fırın Ürünleri</span>
+        <span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z" fill="currentColor"/></svg>
+          Bursa (merkez) · İstanbul (partner)
+        </span>
+        <span>
+          <a href="https://atos.web.tr" target="_blank" rel="noopener">atos.web.tr</a>
+          <a href="https://github.com/altariann/atosweb-template-pack-1" target="_blank" rel="noopener">GitHub</a>
+        </span>
       </div>
     </div>
 
     <header class="site-header">
       <div class="container nav-row">
-        <div class="brand-block">
-          <div>
-            <strong>Atosweb HTML Templates</strong>
-            <p>Türk toptancı müşterisine uygun demo seti</p>
-          </div>
-        </div>
+        <a class="brand" href="#" aria-label="Atosweb">
+          <img src="https://atos.web.tr/assets/images/logos/atosweb-2021-Logo-Fusya.PNG" alt="Atosweb" />
+        </a>
         <nav class="main-nav">
           <a href="#sablonlar">Şablonlar</a>
-          <a href="#neden">Yaklaşım</a>
-          <a href="./anadolu-toptan/index.html" class="nav-cta">İlk Şablonu Aç</a>
+          <a href="#ozellikler">Özellikler</a>
+          <a href="#stack">Stack</a>
+          <a href="#fiyat">Fiyat</a>
+          <a href="#iletisim">İletişim</a>
+          <a href="https://atos.web.tr" target="_blank" rel="noopener" class="nav-cta">Atosweb</a>
         </nav>
       </div>
     </header>
@@ -40,61 +50,96 @@
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">ATOSWEB SUNUM SAYFASI</p>
-            <h1>Toptan simit, poğaça ve açma satışı için 2 güçlü demo website</h1>
+            <span class="badge">
+              <span class="dot"></span> Template Pack 1 · v1.0
+            </span>
+            <h1>Türkiye'nin fırıncısı için hazır <em>iki</em> profesyonel HTML şablon</h1>
             <p class="lead">
-              Bu sürümde şablonları daha gerçekçi hale getirdik. Her örnekte düzgün bir
-              header, dolu bir footer, daha net içerik blokları ve Türkiye’de toptan
-              çalışan işletmelere daha uygun bir ticari dil yer alıyor.
+              Atosweb'in küçük-orta ölçekli gıda / toptan işletmelerine yönelik hazırladığı
+              demo koleksiyonu. Sıfırdan başlamak yerine her biri dakikalar içinde marka
+              bilgisiyle doldurulup yayına alınabilir.
             </p>
             <div class="hero-actions">
-              <a href="#sablonlar" class="button primary">Şablonları İncele</a>
-              <a href="./firin-tedarik/index.html" class="button secondary">Kurumsal Demo</a>
+              <a href="#sablonlar" class="button primary">
+                Şablonları İncele
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+              </a>
+              <a href="https://github.com/altariann/atosweb-template-pack-1" target="_blank" rel="noopener" class="button secondary">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.5-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5A10 10 0 0 0 12 2Z" fill="currentColor"/></svg>
+                GitHub'da Aç
+              </a>
             </div>
             <div class="hero-tags">
-              <span>Bayi ağı</span>
-              <span>Sabah sevkiyat</span>
-              <span>Kurumsal alım</span>
-              <span>Kafe ve otel tedariki</span>
+              <span>Bursa lokalize</span>
+              <span>Responsive</span>
+              <span>No build</span>
+              <span>Self-contained</span>
             </div>
           </div>
-          <div class="hero-panel">
-            <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Simit,%20%C3%A7%C3%B6rek,%20a%C3%A7ma%20and%20po%C4%9Fa%C3%A7a.jpg" alt="Simit ve poğaça vitrini" />
-            <div class="hero-panel-body">
-              <strong>Hazır demo yapısı</strong>
-              <ul>
-                <li>Gerçek header ve nav yapısı</li>
-                <li>Çok kolonlu footer düzeni</li>
-                <li>Daha ikna edici başlık hiyerarşisi</li>
-                <li>Dummy görselli sunum düzeni</li>
-              </ul>
+          <aside class="hero-panel">
+            <div class="hero-preview">
+              <div class="preview-dots"><i></i><i></i><i></i></div>
+              <div class="preview-body">
+                <div class="preview-row">
+                  <span class="bar w-30"></span>
+                  <span class="bar bar-accent w-20"></span>
+                </div>
+                <div class="preview-title">Anadolu Toptan · Fırın Tedarik</div>
+                <div class="preview-grid">
+                  <span></span><span></span><span></span>
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="preview-cta">
+                  <span class="pill">Teklif al</span>
+                  <span class="pill alt">Katalog</span>
+                </div>
+              </div>
             </div>
-          </div>
+            <div class="preview-stats">
+              <article><strong>2</strong><span>demo şablon</span></article>
+              <article><strong>0</strong><span>build step</span></article>
+              <article><strong>100%</strong><span>responsive</span></article>
+            </div>
+          </aside>
         </div>
       </section>
 
-      <section class="intro-section" id="neden">
-        <div class="container intro-grid">
-          <article>
-            <strong>Daha gerçekçi yapı</strong>
-            <p>
-              Kart görünümünden çıkıp, gerçek müşteri sitesine benzeyen header, hero ve
-              footer kurgusu oluşturduk.
-            </p>
-          </article>
-          <article>
-            <strong>Daha yerel dil</strong>
-            <p>
-              Metinler ajans dili yerine bayi, büfe, kantin, otel ve kafe kullanımına daha
-              yakın bir tonda yazıldı.
-            </p>
-          </article>
-          <article>
-            <strong>Daha net odaklar</strong>
-            <p>
-              Her template ayrı bir satış yaklaşımı gösteriyor: geleneksel ve kurumsal.
-            </p>
-          </article>
+      <section class="intro-section" id="ozellikler">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">YAKLAŞIM</p>
+            <h2>Neden bu koleksiyon?</h2>
+          </div>
+          <div class="intro-grid">
+            <article>
+              <div class="ico">
+                <svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z M7 9h10v2H7z M7 13h10v2H7z" fill="currentColor"/></svg>
+              </div>
+              <strong>Gerçekçi yapı</strong>
+              <p>Kart görünümünden çıkıp sticky header, dolu footer, hero, ürün grid ve müşteri yorumları dahil gerçek müşteri sitesi kurgusu.</p>
+            </article>
+            <article>
+              <div class="ico">
+                <svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5Zm0 8L2 5v12l10 5 10-5V5l-10 5Z" fill="currentColor"/></svg>
+              </div>
+              <strong>Yerel dil</strong>
+              <p>Metinler ajans jargonundan uzak; bayi, büfe, kantin, otel ve kafe kullanımına yakın, ikna edici ticari Türkçe ile yazıldı.</p>
+            </article>
+            <article>
+              <div class="ico">
+                <svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 9.6 8 11 4.6-1.4 8-6 8-11V5l-8-3Zm-1 15-4-4 1.4-1.4L11 14.2l5.6-5.6L18 10l-7 7Z" fill="currentColor"/></svg>
+              </div>
+              <strong>Net odaklar</strong>
+              <p>Her şablon farklı bir satış yaklaşımını gösterir: sıcak tonlu geleneksel ya da kurumsal B2B. Kopyalamadan alternatif sunar.</p>
+            </article>
+            <article>
+              <div class="ico">
+                <svg viewBox="0 0 24 24"><path d="M13 3 4 14h7l-1 7 9-11h-7l1-7Z" fill="currentColor"/></svg>
+              </div>
+              <strong>Hızlı yayın</strong>
+              <p>Build adımı yok. HTML + CSS dosyasını düzenle, FTP ya da GitHub Pages'e at. Marka içeriğini 30 dakikada doldurursun.</p>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -102,34 +147,278 @@
         <div class="container">
           <div class="section-head">
             <p class="eyebrow">2 ŞABLON</p>
-            <h2>Kullanıma daha yakın hazırlanmış iki farklı örnek</h2>
+            <h2>Kullanıma hazır iki farklı satış yaklaşımı</h2>
+            <p class="section-sub">
+              Her iki şablon da Bursa iletişim bilgileri, gerçek görseller ve müşteri
+              referanslarıyla doldurulmuş durumda — ilk bakış "hazır demo" değil, çalışır
+              bir müşteri sitesi izlenimi verir.
+            </p>
           </div>
           <div class="template-grid">
             <article class="template-card">
-              <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Simit,%20%C3%A7%C3%B6rek,%20a%C3%A7ma%20and%20po%C4%9Fa%C3%A7a.jpg" alt="Anadolu Toptan" />
+              <div class="card-media warm">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80" alt="Anadolu Toptan" />
+                <span class="card-badge">Geleneksel</span>
+              </div>
               <div class="card-body">
                 <span class="card-no">01</span>
                 <h3>Anadolu Toptan</h3>
                 <p>
-                  Mahalle fırını sıcaklığını koruyan ama kurumsal görünen, bayi ve sabah
-                  sevkiyat odaklı klasik model.
+                  Mahalle fırını sıcaklığını koruyan, bayi ve sabah sevkiyatı odaklı
+                  klasik model. Fraunces serif + sıcak renk paleti.
                 </p>
-                <a href="./anadolu-toptan/index.html">Şablonu Aç</a>
+                <ul class="card-feats">
+                  <li>6 ürün kartı</li>
+                  <li>4 adım süreç</li>
+                  <li>Teslimat timeline</li>
+                  <li>FAQ accordion</li>
+                </ul>
+                <div class="card-actions">
+                  <a href="./anadolu-toptan/index.html" class="button primary">Şablonu Aç</a>
+                  <a href="https://github.com/altariann/atosweb-template-pack-1/tree/main/anadolu-toptan" target="_blank" rel="noopener" class="card-link">Kaynak kod →</a>
+                </div>
               </div>
             </article>
 
             <article class="template-card">
-              <img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Turkish_Simit.jpg" alt="Fırın Tedarik" />
+              <div class="card-media cool">
+                <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=1000&q=80" alt="Fırın Tedarik" />
+                <span class="card-badge alt">Kurumsal</span>
+              </div>
               <div class="card-body">
                 <span class="card-no">02</span>
                 <h3>Fırın Tedarik</h3>
                 <p>
-                  Okul, zincir kafe, bayi ve kurumsal alım yapan işletmelere uygun daha
-                  temiz ve raporlanabilir görünüm.
+                  Okul, otel, zincir kafe ve kurumsal yemekhanelere yönelik B2B tedarik
+                  modeli. Archivo heavy başlıklar + teal kurumsal palet.
                 </p>
-                <a href="./firin-tedarik/index.html">Şablonu Aç</a>
+                <ul class="card-feats">
+                  <li>6 kategori katalog</li>
+                  <li>Sertifika rozetleri</li>
+                  <li>Case study grid</li>
+                  <li>CTA form + KPI</li>
+                </ul>
+                <div class="card-actions">
+                  <a href="./firin-tedarik/index.html" class="button primary">Şablonu Aç</a>
+                  <a href="https://github.com/altariann/atosweb-template-pack-1/tree/main/firin-tedarik" target="_blank" rel="noopener" class="card-link">Kaynak kod →</a>
+                </div>
               </div>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="stack-section" id="stack">
+        <div class="container">
+          <div class="section-head centered">
+            <p class="eyebrow">TEKNOLOJİ</p>
+            <h2>Basit, hızlı, bakım kolay</h2>
+          </div>
+          <div class="stack-grid">
+            <article>
+              <strong>HTML5 + CSS3</strong>
+              <p>Saf, semantic HTML ve modern CSS (grid, flex, custom properties). Framework yok.</p>
+            </article>
+            <article>
+              <strong>Google Fonts</strong>
+              <p>Manrope, Fraunces, Inter, Archivo. CDN üzerinden preconnect ile yüklenir.</p>
+            </article>
+            <article>
+              <strong>Inline SVG</strong>
+              <p>Tüm ikonlar inline SVG, ek font veya asset yüklenmez. Renkler CSS'ten kontrol edilir.</p>
+            </article>
+            <article>
+              <strong>No build</strong>
+              <p>Dependency yok, transpile yok, bundler yok. Dosyayı aç ve çalıştır.</p>
+            </article>
+            <article>
+              <strong>Responsive</strong>
+              <p>1024px ve 720px breakpoint'leri ile mobile-first grid düzeni.</p>
+            </article>
+            <article>
+              <strong>Self-contained</strong>
+              <p>Logo ve ana görseller lokalde, ürün görselleri Unsplash CDN üzerinden.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing-section" id="fiyat">
+        <div class="container">
+          <div class="campaign-banner" role="status">
+            <span class="pulse"></span>
+            <strong>Bahar Kampanyası</strong>
+            <span>%48'e varan indirim — 31 Mayıs 2026'ya kadar geçerli.</span>
+          </div>
+          <div class="section-head centered">
+            <p class="eyebrow">HIZLI BAŞLANGIÇ</p>
+            <h2>Uğraşmak istemiyor musunuz?</h2>
+            <p class="section-sub">
+              Şablonu kendiniz kurcalamak yerine hemen yayına alalım. İlk kurulum tek seferlik,
+              sonrası yıllık bakım.
+            </p>
+          </div>
+          <div class="pricing-grid three-col">
+            <article class="pricing-card">
+              <header>
+                <span class="tag alt">Başlangıç</span>
+                <span class="tag discount">%48 indirim</span>
+                <h3>Hazır Şablon</h3>
+                <p>Vitrinini açmak isteyen küçük işletmeler için minimal paket.</p>
+              </header>
+              <div class="price">
+                <span class="amount">1.299₺</span>
+                <span class="amount-old">2.499₺</span>
+                <span class="unit">ilk kurulum</span>
+              </div>
+              <div class="price-sub">
+                sonrasında <strong>yıllık 599₺</strong> bakım
+              </div>
+              <ul class="price-list">
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  Şablon kurulumu ve markaya uyarlama
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  SSL sertifikası (Let's Encrypt)
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  Aylık otomatik güvenlik kontrolü
+                </li>
+                <li class="muted">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 13H5v-2h14Z" fill="currentColor"/></svg>
+                  Görselleri siz sağlarsınız (hazır halde)
+                </li>
+                <li class="muted">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 13H5v-2h14Z" fill="currentColor"/></svg>
+                  Şirket e-postası dahil değil
+                </li>
+                <li class="muted">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 13H5v-2h14Z" fill="currentColor"/></svg>
+                  Alan adı (domain) dahil değil
+                </li>
+              </ul>
+              <a href="#iletisim" class="button secondary wide">Başvur</a>
+              <small class="fineprint">
+                E-postasız, e-ticaretsiz tek sayfalık vitrin için uygundur.
+              </small>
+            </article>
+
+            <article class="pricing-card featured">
+              <header>
+                <span class="tag">Popüler</span>
+                <span class="tag discount">%20 indirim</span>
+                <h3>Hemen Yayında</h3>
+                <p>Şablon + kurulum + e-posta + sürekli sağlık kontrolü. Uğraşmayın, biz yayına alıyoruz.</p>
+              </header>
+              <div class="price">
+                <span class="amount">3.999₺</span>
+                <span class="amount-old">4.999₺</span>
+                <span class="unit">ilk kurulum</span>
+              </div>
+              <div class="price-sub">
+                sonrasında <strong>yıllık 999₺</strong>'den başlayan bakım
+              </div>
+              <ul class="price-list">
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  Başlangıç paketindeki her şey
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  <span>
+                    <strong>Görsel tasarım & rötuş</strong>
+                    <em class="li-note">fotoğraflarınız yetersizse biz düzenliyoruz: color correction, kırpma, arka plan temizliği</em>
+                  </span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  Şirket e-posta kutusu (ornek@firmaniz.com)
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  Haftalık sağlık kontrolü (uptime + güvenlik)
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  Öncelikli e-posta ve WhatsApp desteği
+                </li>
+                <li class="muted">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 13H5v-2h14Z" fill="currentColor"/></svg>
+                  Alan adı (domain) dahil değil
+                </li>
+              </ul>
+              <a href="#iletisim" class="button primary wide">Hemen başlayalım</a>
+              <small class="fineprint">
+                Fiyatlandırma demo paketi içindir. Domain, özel tasarım veya ek modüller için
+                <a href="#iletisim">iletişime geçin</a>.
+              </small>
+            </article>
+
+            <article class="pricing-card accent">
+              <header>
+                <span class="tag accent">Özel Proje</span>
+                <h3>Tamamen size özel</h3>
+                <p>Sıfırdan tasarım, B2B portalı, e-ticaret veya özel entegrasyonlar.</p>
+              </header>
+              <div class="price">
+                <span class="amount">Teklif</span>
+                <span class="unit">projeye göre</span>
+              </div>
+              <div class="price-sub">
+                Kapsam çıkarılır, sabit fiyat teklifi sunulur
+              </div>
+              <ul class="price-list">
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  Özel kurumsal kimlik ve UX tasarımı
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  B2B / sipariş / stok modülleri
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  <span>
+                    <strong>Domain & hosting bizden</strong>
+                    <em class="li-note">projeye uygun altyapı: Plesk, cPanel veya saf Linux (VPS/dedicated). DNS, SSL, yedekleme tarafımızca yönetilir</em>
+                  </span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  Bursa & İstanbul'da yüz yüze toplantı
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4Z" fill="currentColor"/></svg>
+                  SLA'lı bakım ve destek anlaşması
+                </li>
+              </ul>
+              <a href="#iletisim" class="button secondary wide">Teklif isteyin</a>
+              <small class="fineprint">
+                Detaylı fiyat için ihtiyaç analizi yapılır; net fiyat iletişim sonrası paylaşılır.
+              </small>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section" id="iletisim">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">İLETİŞİM</p>
+            <h2>Kendi işletmeniz için özel şablon ister misiniz?</h2>
+            <p>
+              Atosweb, Bursa merkezli bir dijital ajanstır; İstanbul'daki çözüm ortağımız
+              aracılığıyla Marmara genelinde yüz yüze hizmet sunuyoruz. Bu koleksiyondaki
+              şablonlar hazır demolardır — işletmenize özel kurumsal site, B2B portalı veya
+              e-ticaret altyapısı için bize ulaşın.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a href="https://atos.web.tr/iletisim" target="_blank" rel="noopener" class="button primary">İletişim formu</a>
+            <a href="mailto:bilgi@atos.web.tr" class="button secondary">bilgi@atos.web.tr</a>
           </div>
         </div>
       </section>
@@ -138,20 +427,29 @@
     <footer class="site-footer">
       <div class="container footer-grid">
         <div>
-          <strong>Atosweb</strong>
-          <p>Toptan fırın ürünleri sektörüne uygun HTML demo şablon koleksiyonu.</p>
+          <img class="footer-logo" src="https://atos.web.tr/assets/images/logos/atosweb-2021-Logo-Beyaz.png" alt="Atosweb" />
+          <p>Bursa merkezli dijital ajans, İstanbul çözüm ortağıyla Marmara genelinde yüz yüze hizmet. Küçük-orta ölçekli işletmeler için kurumsal kimlik, web sitesi ve dijital pazarlama çözümleri.</p>
         </div>
         <div>
-          <strong>Hazır Sayfalar</strong>
+          <strong>Şablonlar</strong>
           <a href="./anadolu-toptan/index.html">Anadolu Toptan</a>
           <a href="./firin-tedarik/index.html">Fırın Tedarik</a>
         </div>
         <div>
-          <strong>Kullanım Alanı</strong>
-          <p>Bayi ağı, sabah dağıtım ve kurumsal alım.</p>
+          <strong>Kaynaklar</strong>
+          <a href="https://github.com/altariann/atosweb-template-pack-1" target="_blank" rel="noopener">GitHub Repo</a>
+          <a href="https://github.com/altariann/atosweb-template-pack-1#readme" target="_blank" rel="noopener">README</a>
+          <a href="https://atos.web.tr" target="_blank" rel="noopener">Atosweb Web Sitesi</a>
+        </div>
+        <div>
+          <strong>İletişim</strong>
+          <a href="https://atos.web.tr/iletisim" target="_blank" rel="noopener">atos.web.tr/iletisim</a>
+          <a href="mailto:bilgi@atos.web.tr">bilgi@atos.web.tr</a>
+          <p>Toptan fırın, bayi ağı ve B2B tedarik için özel projeler.</p>
         </div>
       </div>
       <div class="container footer-bottom">
+        <small>© 2026 Atosweb İnteraktif · Bursa & İstanbul</small>
         <small>POWERED BY <a href="https://atos.web.tr" target="_blank" rel="noopener">ATOSWEB</a></small>
       </div>
     </footer>

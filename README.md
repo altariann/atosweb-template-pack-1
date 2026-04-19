@@ -103,10 +103,12 @@ npx serve .
 
 ## 📍 Lokalizasyon
 
-Tüm iletişim bilgileri, telefon numaraları ve adresler **Bursa** merkezli dummy değerlerle doldurulmuştur:
+Demo sayfalarındaki iletişim bilgileri, telefon numaraları ve adresler **Bursa** merkezli dummy değerlerle doldurulmuştur:
 
 - Alan kodu: `0224`
 - Adres referansları: DOSAB, Demirtaş Sanayi Sitesi, Nilüfer, Osmangazi, Yıldırım, Gürsu, Kestel, Mudanya, Gemlik, İnegöl
+
+> Atosweb **Bursa merkezlidir**, **İstanbul'daki çözüm ortağımız** aracılığıyla Marmara genelinde yüz yüze hizmet sağlanmaktadır.
 
 ---
 
