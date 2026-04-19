@@ -2,7 +2,7 @@
 
 # Atosweb Template Pack 1
 
-**Bursa merkezli küçük-orta ölçekli fırın / toptan gıda işletmeleri için hazır HTML şablon koleksiyonu.**
+**Küçük-orta ölçekli fırın / toptan gıda işletmeleri için hazır HTML şablon koleksiyonu.**
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
@@ -103,12 +103,12 @@ npx serve .
 
 ## 📍 Lokalizasyon
 
-Demo sayfalarındaki iletişim bilgileri, telefon numaraları ve adresler **Bursa** merkezli dummy değerlerle doldurulmuştur:
+Demo sayfalarındaki iletişim bilgileri, telefon numaraları ve adresler **Bursa**'ya özel dummy değerlerle doldurulmuştur:
 
 - Alan kodu: `0224`
 - Adres referansları: DOSAB, Demirtaş Sanayi Sitesi, Nilüfer, Osmangazi, Yıldırım, Gürsu, Kestel, Mudanya, Gemlik, İnegöl
 
-> Atosweb **Bursa merkezlidir**, **İstanbul'daki çözüm ortağımız** aracılığıyla Marmara genelinde yüz yüze hizmet sağlanmaktadır.
+> Atosweb, **Bursa ve İstanbul çözüm ortaklarıyla** Marmara genelinde yüz yüze hizmet sağlamaktadır.
 
 ---
 
